@@ -7,6 +7,8 @@ app.use(morgan('dev'))
 require('dotenv').config();
 const port = process.env.PORT;
 
+require('./dbconn/connection')
+
 
 
 
